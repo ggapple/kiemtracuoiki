@@ -111,8 +111,8 @@ $(document).ready(function () {
         email +
         "</td><td>" +
         sdt +
-        "</td><td>" +
-        $("table tbody").append(them);
+        "</td><tr>";
+      $("table tbody").append(them);
       $("#myModal").modal("hide");
       return true;
     }
