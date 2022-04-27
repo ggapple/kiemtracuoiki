@@ -84,7 +84,7 @@ $(document).ready(function () {
   }
   $("#txtEMAIL").blur(kiemtraemail);
   //
-  $("#btnSubDK").click(function () {
+  $("#btnSub").click(function () {
     if (
       kiemtrama() == true &&
       kiemtrahoten() == true &&
